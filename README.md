@@ -32,6 +32,10 @@ Dans le code, les sphère sont modélisé avec une structure de données qui sto
 
 Prenez du temps pour comprendre ce que fait le code.
 
+Après avoir terminé les étapes permettant d'utiliser la mémoire constante, modifiez les valeurs de MAX_SPHERE et IMAGE_DIM afin de completer le tableau de temps suivant. Que constatez-vous ?
+
+![tab](tableau_temps.png)
+
 ### Exercice 2 : Flou d'image et mémoire de texture
 ---------------------------------------------------
 
