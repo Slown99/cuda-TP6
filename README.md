@@ -11,6 +11,24 @@
 * A rendre sur ametice en spécifiant si vous avez fait le TP seul ou en binôme, en mentionnant votre prénom ainsi que votre nom (prénom et nom de chaque membre si en binôme).
 * A rendre avant le 7 avril 2023, 24:00.
 
+### Notes:
+----------
+Dans les programmes suivant : 
+- **input_image_file(const char\* filename, uchar4* image)** vous permet de lire l'image input.ppm et de la charger en mémoire.
+- **output_image_file(uchar4* image)** permet de sauvegarder l'image output.ppm sur disque
+- Dans une image en couleur (RGB), chaque pixel contient 3 valeurs, une pour chaque channel R, G et B. Ces valeurs sont comprises entre 0 et 255. Pour cela nous utilisons le type **uchar4**.
+
+#### uchar4
+Un uchar4 est une structure de données qui représente un vecteur de quatre octets (8 bits chacun) non signés. Le préfixe "u" signifie "unsigned", ce qui indique que les valeurs stockées dans les octets sont supérieur à 0. 
+
+```c 
+typedef struct {
+   unsigned char x, y, z, w;
+} uchar4;
+```
+
+Ici nous nous intéréssons aux 3 premières valeurs x, y, z représentant les channel R(rouge), G(vert), B(bleu). w est laissé à 255.
+
 ### Exercice 1 : Ray tracing et mémoire constante
 -------------------------------------------------
 
